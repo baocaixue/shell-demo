@@ -2,6 +2,8 @@
 
 echo "demo started"
 
+#declare -r tile="Page Title" <---> final val
+
 title="System Information Report For $HOSTNAME"
 current_time=$(date)
 time_stamp="Generaed $current_time, by $USER"

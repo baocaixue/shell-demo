@@ -10,3 +10,6 @@ curl --location --request POST 'https://localhost:9443/oauth2/token' \
 
 curl --location --request GET 'https://localhost:9443/oauth2/userinfo?schema=openid' \
 --header 'Authorization: Bearer d0d00623-76b4-3504-8412-84bb09ac3857'
+
+
+docker run --name ldap -d -p 389:10389 openmicroscopy/apacheds
